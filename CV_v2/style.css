@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /*border: 1px solid black;*/
+}
+
+body {
+    font-family: sans-serif;
+    }
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    display: inline-flex;
+}
+header {
+    background: #2980b9;
+}
+
+header .info {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    border: 1px solid black;
+}
+
+header .name {
+    width: 25%;
+    padding: 5px;
+}
+.photo img{
+    display: block;
+}
+
+.container_contacts {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    height: 100%;
+    justify-content: space-around;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?r76rei');
+    src:  url('fonts/icomoon.eot?r76rei#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?r76rei') format('truetype'),
+    url('fonts/icomoon.woff?r76rei') format('woff'),
+    url('fonts/icomoon.svg?r76rei#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+i, [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+    content: "\e904";
+    color: black;
+}
+.icon-viber:before {
+    content: "\e900";
+    color: #665cac;
+}
+.icon-linkedin:before {
+    content: "\e901";
+    color: #0077b5;
+}
+.icon-skype:before {
+    content: "\e902";
+    color: #00aff0;
+}
+.icon-gmail:before {
+    content: "\e903";
+    color: #d14836;
+}
+
+.icon-phone:before {
+    content: "\e942";
+    color: green;
+}
+
+.wrapper {
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.wrapper .left_colum {
+    background: #ffed005e;
+    width: 25%;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.left_colum input[type = button] {
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+
+.left_colum input[type = button]:focus {
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 10px;
+    width: 250px;
+    border-radius: 25px;
+    outline: none;
+}
+
+.left_colum input[type = button]:hover {
+    background: #3498db;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+
+.wrapper .right_colum {
+    padding: 5px;
+    width: 75%;
+    border: 1px solid black;
+}
+
+.right_colum h1, p{
+    color: black;
+}
+
+.right_colum div {
+    position: relative;
+    /*display: none;*/
+}
