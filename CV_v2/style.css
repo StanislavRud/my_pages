@@ -20,7 +20,7 @@ p {
 
 a {
     text-decoration: none;
-    display: inline-flex;
+    color: white;
 }
 header {
     background: #2980b9;
@@ -42,14 +42,40 @@ header .name {
     display: block;
 }
 
+.contacts {
+    width: 55%;
+    padding: 5px;
+    padding-left: 20px;
+}
+
 .container_contacts {
+    height: 100%;
+}
+
+.container_contacts ul{
+    list-style: none;
     text-align: left;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    padding: 5px;
-    height: 100%;
     justify-content: space-around;
+}
+
+.container_contacts ul li {
+    display: flex;
+    flex-direction: column;
+    border-width: 20px;
+    /*border-bottom: 1px solid black;*/
+    border-bottom: 1px solid transparent;
+    max-width: 150px;
+    transition: all 2s;
+
+}
+
+.container_contacts ul li:hover {
+    border-bottom: 1px solid black;
+    max-width: 100%;
+
 }
 
 @font-face {
@@ -70,33 +96,37 @@ i, [class*=" icon-"] {
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
+    margin: 5px;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-github:before {
+*:before {
+    margin: 5px;
+}
+.icon-github:after {
     content: "\e904";
     color: black;
 }
-.icon-viber:before {
+.icon-viber:after {
     content: "\e900";
     color: #665cac;
 }
-.icon-linkedin:before {
+.icon-linkedin:after {
     content: "\e901";
     color: #0077b5;
 }
-.icon-skype:before {
+.icon-skype:after {
     content: "\e902";
     color: #00aff0;
 }
-.icon-gmail:before {
+.icon-gmail:after {
     content: "\e903";
     color: #d14836;
 }
 
-.icon-phone:before {
+.icon-phone:after {
     content: "\e942";
     color: green;
 }
@@ -105,6 +135,8 @@ i, [class*=" icon-"] {
     display: flex;
     max-width: 1180px;
     margin: 0 auto;
+    height: 600px;
+    overflow: hidden;
 }
 
 .wrapper .left_colum {
@@ -151,9 +183,13 @@ i, [class*=" icon-"] {
     padding: 5px;
     width: 75%;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
-.right_colum h1, p{
+.right_colum h2, div p{
     color: black;
 }
 

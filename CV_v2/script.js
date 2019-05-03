@@ -20,47 +20,53 @@ var obj = {
 };
 
 var div = document.createElement('div');
-
+var tegP = document.createElement('p');
 a.onclick = function () {
     colum.innerHTML = "";
     div.className = "Objective";
-    div.innerText = (obj.Objective);
+    tegP.innerText = (obj.Objective);
     colum.insertBefore(div, colum.firstChild);
+    colum.insertBefore(tegP, div.appendChild(tegP))
 };
 
 b.onclick = function () {
     colum.innerHTML = "";
     div.className = "Summary";
-    div.innerText = (obj.Summary);
+    tegP.innerText = (obj.Summary);
     colum.insertBefore(div, colum.firstChild);
+    colum.insertBefore(tegP, div.appendChild(tegP))
 };
 
 c.onclick = function () {
     colum.innerHTML = "";
     div.className = "Skills";
-    div.innerText = (obj.Skills);
+    tegP.innerText = (obj.Skills);
     colum.insertBefore(div, colum.firstChild);
+    colum.insertBefore(tegP, div.appendChild(tegP))
 };
 
 d.onclick = function () {
     colum.innerHTML = "";
     div.className = "Experience";
-    div.innerText = (obj.Experience);
+    tegP.innerText = (obj.Experience);
     colum.insertBefore(div, colum.firstChild);
+    colum.insertBefore(tegP, div.appendChild(tegP))
 };
 
 e.onclick = function () {
     colum.innerHTML = "";
     div.className = "Education";
-    div.innerText = (obj.Education);
+    tegP.innerText = (obj.Education);
     colum.insertBefore(div, colum.firstChild);
+    colum.insertBefore(tegP, div.appendChild(tegP))
 };
 
 f.onclick = function () {
     colum.innerHTML = "";
     div.className = "Additional_information";
-    div.innerText = (obj.Additional_information);
+    tegP.innerText = (obj.Additional_information);
     colum.insertBefore(div, colum.firstChild);
+    colum.insertBefore(tegP, div.appendChild(tegP))
 };
 //
 // a.onclick = function () {
