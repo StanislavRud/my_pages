@@ -8,22 +8,15 @@
 
 body {
     font-family: sans-serif;
+    background: url("img/web-background.jpg");
     }
 
-h1 {
-    color: white;
-}
-
-p {
+h1, p, a {
     color: white;
 }
 
 a {
     text-decoration: none;
-    color: white;
-}
-header {
-    background: #2980b9;
 }
 
 header .info {
@@ -31,11 +24,17 @@ header .info {
     margin: 0 auto;
     display: flex;
     text-align: center;
-    border: 1px solid black;
+    background: rgba(60, 73, 91, 0.51);
 }
 
 header .name {
+    text-align: center;
+    margin: auto 0;
     width: 25%;
+    padding: 5px;
+}
+
+.photo {
     padding: 5px;
 }
 .photo img{
@@ -43,7 +42,7 @@ header .name {
 }
 
 .contacts {
-    width: 55%;
+    width: 40%;
     padding: 5px;
     padding-left: 20px;
 }
@@ -68,7 +67,7 @@ header .name {
     /*border-bottom: 1px solid black;*/
     border-bottom: 1px solid transparent;
     max-width: 150px;
-    transition: all 2s;
+    transition: all 1s;
 
 }
 
@@ -102,9 +101,6 @@ i, [class*=" icon-"] {
     -moz-osx-font-smoothing: grayscale;
 }
 
-*:before {
-    margin: 5px;
-}
 .icon-github:after {
     content: "\e904";
     color: black;
@@ -140,10 +136,9 @@ i, [class*=" icon-"] {
 }
 
 .wrapper .left_colum {
-    background: #ffed005e;
+    background: rgba(203, 201, 201, 0.48);
     width: 25%;
     padding: 5px;
-    border: 1px solid black;
 }
 
 .left_colum input[type = button] {
@@ -151,28 +146,28 @@ i, [class*=" icon-"] {
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #3498db;
+    border: 2px solid rgb(60,73,91);
     padding: 14px 10px;
-    width: 200px;
+    width: 70%;
     border-radius: 25px;
     transition: 0.25s;
 }
 
 .left_colum input[type = button]:focus {
-    background: none;
+    background: rgba(203, 201, 201, 0.48);
     display: block;
     margin: 20px auto;
     text-align: center;
     border: 2px solid black;
     padding: 14px 10px;
-    width: 250px;
+    width: 100%;
     border-radius: 25px;
     outline: none;
 }
 
 .left_colum input[type = button]:hover {
-    background: #3498db;
-    color: white;
+    background: rgba(203, 201, 201, 0.48);
+    color: rgb(60,73,91);
     border: 2px solid black;
     cursor: pointer;
 }
@@ -182,18 +177,31 @@ i, [class*=" icon-"] {
 .wrapper .right_colum {
     padding: 5px;
     width: 75%;
-    border: 1px solid black;
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    margin: 10px;
 }
 
-.right_colum h2, div p{
+.right_colum div{
+    display: flex;
+    flex-direction: column;
+}
+
+.right_colum h2{
     color: black;
 }
 
-.right_colum div {
-    position: relative;
-    /*display: none;*/
+.right_colum h3{
+    color: black;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding: 0 10%;
+    margin: 15px 0;
+}
+
+
+.right_colum p {
+    color: black;
 }
