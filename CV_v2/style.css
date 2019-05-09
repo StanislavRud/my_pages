@@ -297,39 +297,39 @@ i, [class*=" icon-"] {
 
 }
 
-@media screen and (min-width: 700px) {
+/*@media screen and (min-width: 700px) {*/
 
-    html {
-        width: 100%;
-    }
+    /*html {*/
+        /*width: 100%;*/
+    /*}*/
 
-    header {
-        height: 50%;
-    }
+    /*header {*/
+        /*height: 50%;*/
+    /*}*/
 
-    header .info {
-        width: 100%;
-        flex-wrap: wrap;
-    }
+    /*header .info {*/
+        /*width: 100%;*/
+        /*flex-wrap: wrap;*/
+    /*}*/
 
-    header .name {
-        width: 50%;
-    }
+    /*header .name {*/
+        /*width: 50%;*/
+    /*}*/
 
-    header .photo {
-        margin: auto;
-    }
+    /*header .photo {*/
+        /*margin: auto;*/
+    /*}*/
 
-    header .contacts {
-        width: 100%;
-        padding: 5px;
-    }
+    /*header .contacts {*/
+        /*width: 100%;*/
+        /*padding: 5px;*/
+    /*}*/
 
-    header .container_contacts ul {
-        flex-direction: inherit;
-    }
+    /*header .container_contacts ul {*/
+        /*flex-direction: inherit;*/
+    /*}*/
 
-    header .container_contacts li {
-        display: block;
-    }
-}
+    /*header .container_contacts li {*/
+        /*display: block;*/
+    /*}*/
+/*}*/

@@ -29,8 +29,9 @@ a.onclick = function () {
     div.className = "Objective";
     tegP.innerText = (obj.Objective);
     h3.innerText = "Objective";
-    colum.insertBefore(div, colum.firstChild);
-    colum.insertBefore((h3, div.appendChild(h3)) + (tegP, div.appendChild(tegP)));
+    colum.appendChild(div);
+    div.appendChild(h3);
+    div.appendChild(tegP);
 };
 
 b.onclick = function () {
@@ -38,27 +39,37 @@ b.onclick = function () {
     div.className = "Summary";
     tegP.innerText = (obj.Summary);
     h3.innerText = "Summary";
-    colum.insertBefore(div, colum.firstChild);
-    colum.insertBefore((h3, div.appendChild(h3)) + (tegP, div.appendChild(tegP)));
+    colum.appendChild(div);
+    div.appendChild(h3);
+    div.appendChild(tegP);
 
 };
 
 c.onclick = function () {
     colum.innerHTML = "";
     div.className = "Skills";
-    tegP.innerText = (obj.Skills);
-    h3.innerText = "Skills";
-    colum.insertBefore(div, colum.firstChild);
-    colum.insertBefore((h3, div.appendChild(h3))+(tegP, div.appendChild(tegP)));
-    };
+    colum.appendChild(div);
+    div.appendChild(ul);
+
+    // tegP.innerText = (obj.Skills);
+    // h3.innerText = "Skills";
+    var data = ["Первая строка", "Вторая строка", "n строка"];
+        for (var i = 0; i < data.length; i++) {
+            li.innerText= data[i];
+            ul.appendChild(li);
+        }
+
+
+};
 
 d.onclick = function () {
     colum.innerHTML = "";
     div.className = "Experience";
     tegP.innerText = (obj.Experience);
     h3.innerText = "Experience";
-    colum.insertBefore(div, colum.firstChild);
-    colum.insertBefore((h3, div.appendChild(h3)) + (tegP, div.appendChild(tegP)))
+    colum.appendChild(div);
+    div.appendChild(h3);
+    div.appendChild(tegP);
 };
 
 e.onclick = function () {
@@ -66,8 +77,9 @@ e.onclick = function () {
     div.className = "Education";
     tegP.innerText = (obj.Education);
     h3.innerText = "Education";
-    colum.insertBefore(div, colum.firstChild);
-    colum.insertBefore((h3, div.appendChild(h3)) + (tegP, div.appendChild(tegP)))
+    colum.appendChild(div);
+    div.appendChild(h3);
+    div.appendChild(tegP);
 };
 
 f.onclick = function () {
@@ -75,7 +87,8 @@ f.onclick = function () {
     div.className = "Additional_information";
     h3.innerText = "Additional information";
     tegP.innerText = (obj.Additional_information);
-    colum.insertBefore(div, colum.firstChild);
-    colum.insertBefore((h3, div.appendChild(h3)) + (tegP, div.appendChild(tegP)))
+    colum.appendChild(div);
+    div.appendChild(h3);
+    div.appendChild(tegP);
 };
 
