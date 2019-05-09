@@ -39,7 +39,7 @@ b.onclick = function () {
     tegP.innerText = (obj.Summary);
     h3.innerText = "Summary";
     colum.insertBefore(div, colum.firstChild);
-    colum.insertBefore((h3, div.appendChild(h3))+(tegP, div.appendChild(tegP)));
+    colum.insertBefore((h3, div.appendChild(h3)) + (tegP, div.appendChild(tegP)));
 
 };
 
@@ -78,41 +78,4 @@ f.onclick = function () {
     colum.insertBefore(div, colum.firstChild);
     colum.insertBefore((h3, div.appendChild(h3)) + (tegP, div.appendChild(tegP)))
 };
-//
-// a.onclick = function () {
-//     colum.innerHTML = "";
-//     // var div = document.createElement('div');
-//     // div.className("Objective2");
-//     colum.innerHTML += (obj.Objective);
-// };
-
-// b.onclick = function () {
-//     colum.innerHTML = "";
-//     colum.innerHTML +=("<p>Опыт работы с хостами на платформах ESXI, Hyper-V, Proxmox, разворачивании web серверов apache24, ngnix, ISS, поддержка работоспособности, в последнее время верстаю одностраничные сайты на HTML/CSS и немного JS.  Также имею опыт работы c Photoshop.\n" +
-//         "                    Имею хорошие аналитические способности. Легко обучаюсь. Хорошо работаю в коллективе</p>")
-//
-// };
-// c.onclick = function () {
-//     colum.innerHTML = "";
-//     colum.innerHTML +=("<p>HTML CSS SCSS JS Git MSSQL MySQL Postgress *nix Windows*, server* Bitrix24 Jira QA Core </p>");
-// };
-//
-// d.onclick = function () {
-//     colum.innerHTML = "";
-//     colum.innerHTML +=("<p>System Administrator, Chudo, Factor</p>");
-// };
-//
-// e.onclick = function () {
-//     colum.innerHTML = "";
-//     colum.innerHTML +=("<p>KHAI – Engineer Constructor Aircrafts and Helicopters (2007 – 2013)\n" +
-//         "                    Telesens Academy – QA Core (2015)\n" +
-//         "                    NT School – Front-end developer (2018)\n" +
-//         "                    A-Level – Full Stack (but not finished) (2018-2019)</p>");
-// };
-//
-// f.onclick = function () {
-//     colum.innerHTML = "";
-//     colum.innerHTML +=("<p>Additional information</p>");
-// };
-
 
