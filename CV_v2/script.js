@@ -23,7 +23,11 @@ var h3 = document.createElement('h3');
 var div = document.createElement('div');
 var tegP = document.createElement('p');
 var ul = document.createElement('ul');
-var li = document.createElement('li');
+
+function clear () {
+    document.getElementById("colum").innerText = "";
+}
+
 a.onclick = function () {
     colum.innerHTML = "";
     div.className = "Objective";
@@ -46,20 +50,17 @@ b.onclick = function () {
 };
 
 c.onclick = function () {
+    colum.clear;
     colum.innerHTML = "";
     div.className = "Skills";
     colum.appendChild(div);
     div.appendChild(ul);
-
-    // tegP.innerText = (obj.Skills);
-    // h3.innerText = "Skills";
-    var data = ["Первая строка", "Вторая строка", "n строка"];
+    var data = ["HTML", "CSS", "JS", "Win servers", "*nix", "apache24", "nginx" ];
         for (var i = 0; i < data.length; i++) {
+            var li = document.createElement('li');
             li.innerText= data[i];
             ul.appendChild(li);
         }
-
-
 };
 
 d.onclick = function () {

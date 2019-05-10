@@ -220,6 +220,18 @@ i, [class*=" icon-"] {
     color: white;
 }
 
+.right_colum li {
+    font-size: 2em;
+    color: white;
+    text-align: left;
+    list-style-position: inside;
+}
+
+.right_colum .Skills {
+    width: 50%;
+    margin: auto;
+}
+
 @media screen and (max-width: 1064px){
     .wrapper {
         flex-direction: column;
