@@ -55,8 +55,7 @@ header .name {
 
 .contacts {
     width: 40%;
-    padding: 5px;
-    padding-left: 20px;
+    padding: 5px 5px 5px 20px;
 }
 
 .container_contacts {
@@ -186,10 +185,8 @@ i, [class*=" icon-"] {
     cursor: pointer;
 }
 
-
-
 .wrapper .right_colum {
-    overflow: overlay;
+    overflow: auto;
     padding: 5px;
     width: 75%;
     flex-direction: column;
@@ -206,6 +203,7 @@ i, [class*=" icon-"] {
 .right_colum h2{
     font-size: 3em;
     color: white;
+    margin: 15px 0;
 }
 
 .right_colum h3{
@@ -224,7 +222,16 @@ i, [class*=" icon-"] {
     text-align: justify;
 }
 
+.Experience p{
+    padding-right: 15px;
+}
+
+.Additional_information p{
+    margin: 0 auto;
+}
+
 .right_colum li {
+    margin: 5px 0;
     font-size: 1.5em;
     color: white;
     text-align: left;
@@ -258,6 +265,12 @@ i, [class*=" icon-"] {
     .left_colum p {
         margin: 10px;
     }
+
+    .left_colum input[type = button]:focus {
+        margin: 0 auto;
+    }
+
+
     .left_colum input[type = button] {
         width: 100%;
         margin: 0;
@@ -316,40 +329,3 @@ i, [class*=" icon-"] {
     }
 
 }
-
-/*@media screen and (min-width: 700px) {*/
-
-    /*html {*/
-        /*width: 100%;*/
-    /*}*/
-
-    /*header {*/
-        /*height: 50%;*/
-    /*}*/
-
-    /*header .info {*/
-        /*width: 100%;*/
-        /*flex-wrap: wrap;*/
-    /*}*/
-
-    /*header .name {*/
-        /*width: 50%;*/
-    /*}*/
-
-    /*header .photo {*/
-        /*margin: auto;*/
-    /*}*/
-
-    /*header .contacts {*/
-        /*width: 100%;*/
-        /*padding: 5px;*/
-    /*}*/
-
-    /*header .container_contacts ul {*/
-        /*flex-direction: inherit;*/
-    /*}*/
-
-    /*header .container_contacts li {*/
-        /*display: block;*/
-    /*}*/
-/*}*/
