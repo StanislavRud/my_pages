@@ -8,14 +8,15 @@ var e = document.getElementById("Education");
 var f = document.getElementById("Additional_information");
 
 var obj = {
-    Objective:'I want start a career as a junior Front-end developer in company X and maybe in 5 years grow to the team leader',
+    Objective:"I want to change the direction of my life and start a career as a junior Front-end developer in " +
+        "company and maybe in 5 years grow to the team leader",
     Summary: "Опыт работы с хостами на платформах: ESXI, Hyper-V, Proxmox, разворачивании web серверов apache24, ngnix, ISS, поддержка работоспособности, в последнее время верстаю одностраничные сайты на HTML/CSS и немного JS.  Также имею опыт работы c Photoshop.\n .Имею хорошие аналитические способности. Легко обучаюсь. Хорошо работаю в коллективе",
     Experience: "(2018 - today) System Administrator, GROUP OF COMPANIES «FACTOR»\n" +
         "\n" +
-        " - Managed servers, workstations, computers, laptops, routers, switches and existing network applications.\n" +
-        " - MOnitoring and conducted daily system health checks.\n" +
+        " - Managed servers, workstations, routers, switches and existing network applications.\n" +
+        " - Monitoring and conducted daily system health checks.\n" +
         " - Diagnosed and resolved all technical issues related to hardware and software.\n" +
-        " - Supported all LAN, WAN and other networking systems.\n" +
+        " - Supported all LAN, WAN networking systems.\n" +
         " - Ensured security and integrity of network.\n" +
         " - Initiates backup process, data recoveries and other disaster recovery contingencies.\n" +
         "\n" +
@@ -32,11 +33,29 @@ var obj = {
         " - Remote user support.\n" +
         " - Work with users.\n" +
         " - Tenders and contracting by equipment suppliers",
-    Education: "KHAI – Engineer Constructor Aircrafts and Helicopters (2007 – 2013)\n" +
-    "Telesens Academy – QA Core (2015)\n" + "NT School – Front-end developer (2018)\n" +
-    "A-Level – Full Stack(2018-2019)",
-    Additional_information: "- Quickly learn\n" +
-        "-  Fair execution of tasks\n" +
+    Education: "KHAI – (2007 – 2011)\n" +
+        "Bachelor - Engineer Constructor Aircrafts and Helicopters\n"+
+        "\n"+
+        "KHAI – (2011 – 2013)\n" +
+        "Specialist - Aircraft Testing and Certification\n" +
+        "\n"+
+        "Telesens Academy – (2015)\n" +
+        "QA Core (manual testing WEB,mobile,desktop, check-list, test-cases, bag-report)\n" +
+        "\n"+
+        "NT School – Front-end developer (2018)\n" +
+        "HTML5/CSS3/SCSS/Flex-box/Grid CSS\n" +
+        "In practice, I made one-page websites on PSD layouts and uploaded to hosting (no js, just HTML + CSS)\n"+
+        "\n"+
+        "A-Level – Full Stack(2018-2019)\n"+
+        "HTML5/CSS3/Flex-Box/JS/Git\n"+
+        "In practice, I made one-page websites on PSD layouts and uploaded to hosting",
+    Additional_information: "Currently working as a system administrator, but really want to change the profession and" +
+        " start a career front-end developer. In my free time I do a little freelancing, " +
+        "I make up one-page websites according to layouts, watch JS lectures and learn English.\n" +
+        " Married/n"+
+        " Hobbies: collecting mushrooms, kayaks, bicycles, cars/n"+
+        "- Quickly learn\n" +
+        "- Fair execution of tasks\n" +
         "- Initiative\n" +
         "- Executive\n" +
         "- Punctual\n" +
@@ -44,7 +63,7 @@ var obj = {
         "- Auspicious\n" +
         "- A great desire to learn new things and develop\n" +
         "\n" +
-        " English level: intermediate",
+        "English level: pre-intermediate",
 };
 
 var h3 = document.createElement('h3');
@@ -79,7 +98,7 @@ b.onclick = function () {
 
 };
 
-var data = ["HTML5/CSS3 (Responsive, Adaptive)", "JavaScript", "Adobe Photoshop", "Version Control/ Git", "Virtualizations/ VMware Workstation, Hiper-V, Proxmox, ESXI", "Active network equipment/ MikroTik, Ubiquiti, Fortigate, HP", "Win servers", "Linux systems", "Web Servers/ apache24, nginx, IIS", "Database/ MS SQL, MySQL, PostgreSQL", "CRM/ Jira, Mantis, Bitrix, 1C"];
+var data = ["HTML5/CSS3 (Responsive, Adaptive)", "JavaScript", "Adobe Photoshop", "Version Control (Git)", "Virtualizations (VMware Workstation, Hiper-V, Proxmox, ESXI)", "Active network equipment (MikroTik, Ubiquiti, Fortigate, HP)", "Win servers", "Linux systems", "Web Servers (apache24, nginx, IIS)", "Database (MS SQL, MySQL, PostgreSQL)", "CRM (Jira, Mantis, Bitrix24, 1C)"];
 
 c.onclick = function () {
     clear();
@@ -100,7 +119,7 @@ d.onclick = function () {
     clear();
     div.className = "Experience";
     tegP.innerText = (obj.Experience);
-    h3.innerText = "Experience";
+    h3.innerText = "Work Experience";
     colum.appendChild(div);
     div.appendChild(h3);
     div.appendChild(tegP);
