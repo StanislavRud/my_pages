@@ -10,7 +10,10 @@ var f = document.getElementById("Additional_information");
 var obj = {
     Objective:"I want to change the direction of my life and start a career as a junior Front-end developer in " +
         "company and maybe in 5 years grow to the team leader",
-    Summary: "Опыт работы с хостами на платформах: ESXI, Hyper-V, Proxmox, разворачивании web серверов apache24, ngnix, ISS, поддержка работоспособности, в последнее время верстаю одностраничные сайты на HTML/CSS и немного JS.  Также имею опыт работы c Photoshop.\n .Имею хорошие аналитические способности. Легко обучаюсь. Хорошо работаю в коллективе",
+    Summary: "Experience with hosts on platforms: ESXI, Hyper-V, Proxmox, deploying web servers apache24, ngnix, ISS," +
+        " support for performance, recently I am building one-page websites on HTML / CSS and some JS. I also have" +
+        " experience with Photoshop.\n" +
+        "I have good analytical skills. Easy to learn. I work well in a team",
     Experience: "(2018 - today) System Administrator, GROUP OF COMPANIES «FACTOR»\n" +
         "\n" +
         " - Managed servers, workstations, routers, switches and existing network applications.\n" +
@@ -51,9 +54,7 @@ var obj = {
         "In practice, I made one-page websites on PSD layouts and uploaded to hosting",
     Additional_information: "Currently working as a system administrator, but really want to change the profession and" +
         " start a career front-end developer. In my free time I do a little freelancing, " +
-        "I make up one-page websites according to layouts, watch JS lectures and learn English.\n" +
-        " Married/n"+
-        " Hobbies: collecting mushrooms, kayaks, bicycles, cars/n"+
+        "I make up one-page websites according to layouts. Last time i watch JS lectures and learn English.\n" +
         "- Quickly learn\n" +
         "- Fair execution of tasks\n" +
         "- Initiative\n" +
@@ -63,7 +64,13 @@ var obj = {
         "- Auspicious\n" +
         "- A great desire to learn new things and develop\n" +
         "\n" +
-        "English level: pre-intermediate",
+        "Marital status: Married.\n" +
+        "\n" +
+        " Hobby: collecting mushrooms, kayaks, bicycles, cars.\n" +
+
+        "\n" +
+        "Languages:\n" +
+        "English pre-intermediate",
 };
 
 var h3 = document.createElement('h3');
