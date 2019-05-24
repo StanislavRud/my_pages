@@ -10,9 +10,12 @@ var f = document.getElementById("Additional_information");
 var obj = {
     Objective:"I want to change the direction of my life and start a career as a junior Front-end developer in " +
         "company and maybe in 5 years grow to the team leader",
-    Summary: "Experience with hosts on platforms: ESXI, Hyper-V, Proxmox, deploying web servers apache24, ngnix, ISS," +
-        " support for performance, recently I am building one-page websites on HTML / CSS and some JS. I also have" +
-        " experience with Photoshop.\n" +
+    Summary: "I have over 3 years of experience working with hosts on platforms: ESXI, Hyper-V, Proxmox, " +
+        "deploying web servers apache24, ngnix, ISS, support for performance, recently I am building one-page websites " +
+        "on HTML / CSS and some JS. Implemented a CRM jira system for supports, developers, users, launched corporate mail, " +
+        "ip telephony, transferred physical servers to virtual ones. Monitoring system. Debug servers work. " +
+        "Set up firewalls. I have experience with Photoshop.\n" +
+        " There is an understanding of the work of the assembly systems Gulp, Webpack, Grunt\n"+
         "I have good analytical skills. Easy to learn. I work well in a team",
     Experience: "(2018 - today) System Administrator, GROUP OF COMPANIES «FACTOR»\n" +
         "\n" +
