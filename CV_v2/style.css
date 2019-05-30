@@ -2,8 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-    /*border: 1px solid black;*/
 }
 
 html {
@@ -28,6 +26,7 @@ a {
 
 header {
     height: 25%;
+    background: rgba(60, 73, 91, 0.51);
 }
 
 header .info {
@@ -36,7 +35,6 @@ header .info {
     margin: 0 auto;
     display: flex;
     text-align: center;
-    background: rgba(60, 73, 91, 0.51);
 }
 
 header .name {
@@ -55,7 +53,6 @@ header .name {
 }
 
 .contacts {
-    width: 40%;
     padding: 5px 5px 5px 20px;
 }
 
@@ -73,22 +70,16 @@ header .name {
 }
 
 .container_contacts ul li {
-    display: flex;
     flex-direction: column;
     border-width: 20px;
-    /*border-bottom: 1px solid black;*/
-
 }
 
-.container_contacts ul a {
-    max-width: 150px;
-    transition: all 1s;
-    border-bottom: 1px solid transparent;
+.container_contacts a {
+    display: inline-block;
 }
 
 .container_contacts ul a:hover {
-    border-bottom: 1px solid black;
-    max-width: 100%;
+    color: black;
 
 }
 
@@ -201,11 +192,29 @@ i, [class*=" icon-"] {
     flex-direction: column;
 }
 
-.right_colum h2{
+.right_colum h2, h3{
     font-size: 3em;
     color: white;
     margin: 15px 0;
+    animation-duration: 0.5s;
+    animation-name: slidein;
 }
+
+@keyframes slidein {
+    from {
+        margin-left: -200%;
+        /*width: -300%;*/
+    }
+
+    to {
+        margin-left: 0%;
+        /*width: 100%;*/
+    }
+}
+
+
+
+
 
 .right_colum h3{
     font-size: 3em;
