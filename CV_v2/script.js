@@ -10,35 +10,35 @@ var f = document.getElementById("Additional_information");
 var obj = {
     Objective:"I want to change the direction of my life and start a career as a junior Front-end developer in " +
         "company and maybe in 5 years grow to the team leader",
-    Summary: "I have over 3 years of experience working with hosts on platforms: ESXI, Hyper-V, Proxmox, " +
-        "deploying web servers apache24, ngnix, ISS, support for performance, recently I am building one-page websites " +
-        "on HTML / CSS and some JS. Implemented a CRM jira system for supports, developers, users, launched corporate mail, " +
-        "ip telephony, transferred physical servers to virtual ones. Monitoring system. Debug servers work. " +
-        "Set up firewalls. I have experience with Photoshop.\n" +
-        " There is an understanding of the work of the assembly systems Gulp, Webpack, Grunt\n"+
-        "I have good analytical skills. Easy to learn. I work well in a team",
+    Summary: "I have more than 3 years of experience with hosts on platforms: ESXI, Hyper-V, Proxmox, about 1.5 years" +
+        " of deployment of web servers on apache24, ngnix, ISS, and their support. Introduced jira CRM system to support" +
+        " users by developers. Launched corporate mail, ip-telephony. Physical servers of the company were transferred" +
+        " to virtual ones. Configured the monitoring system. Debugged the servers.\n" +
+        "In my spare time I create one-page sites according to layouts. And I constantly improve my skills in site development.\n" +
+        "I have an understanding and a small experience of working with assemblers Gulp, Webpack, Grunt.\n" +
+        "Have experience with Photoshop.",
     Experience: "(2018 - today) System Administrator, GROUP OF COMPANIES «FACTOR»\n" +
         "\n" +
-        " - Managed servers, workstations, routers, switches and existing network applications.\n" +
-        " - Monitoring and conducted daily system health checks.\n" +
-        " - Diagnosed and resolved all technical issues related to hardware and software.\n" +
-        " - Supported all LAN, WAN networking systems.\n" +
-        " - Ensured security and integrity of network.\n" +
-        " - Initiates backup process, data recoveries and other disaster recovery contingencies.\n" +
+        " - Server management, workstations, routers, switches and existing network applications.\n" +
+        " - Monitoring and daily system checks.\n" +
+        " - Diagnostics and solution of all technical problems related to hardware and software.\n" +
+        " - Support for all network systems LAN, WAN.\n" +
+        " - Ensuring network security and integrity.\n" +
+        " - Backup, data recovery in case of failures or other situations, system and data recovery.\n" +
         "\n" +
         "(2015 - 2018) System Administrator, Chain of supermarkets «CHUDO» \n" +
         "\n" +
-        " - Managed servers, workstations, computers, laptops, printers, routers, switches and existing network applications\n" +
-        " - Monitoring and conducted daily system health checks.\n" +
-        " - Diagnosed and resolved all technical issues related to hardware and software.\n" +
-        " - Laying, building, supported all LAN, WAN networking systems.\n" +
-        " - Ensured security and integrity of network.\n" +
-        " - Initiates backup process, data recoveries and other disaster recovery contingencies.\n" +
-        " - Open new filials, magzines.\n" +
-        " - Connecting and setting up trading equipment.\n" +
+        " - Server management, workstations, computers, laptops, printers, routers, switches and existing network applications.\n" +
+        " - Monitoring and daily system checks.\n" +
+        " - Diagnose and solve all technical problems related to hardware and software.\n" +
+        " - Laying, construction, support of all network systems LAN, WAN.\n" +
+        " - Ensuring security and integrity of the network.\n" +
+        " - Backup, data recovery in case of failures or other situations, system and data recovery.\n" +
+        " - Opening of new branches, shops.\n" +
+        " - Connecting and configuring commercial equipment.\n" +
         " - Remote user support.\n" +
-        " - Work with users.\n" +
-        " - Tenders and contracting by equipment suppliers",
+        " - Working with users.\n" +
+        " - Tenders and contracts with equipment suppliers.",
     Education: "KHAI – (2007 – 2011)\n" +
         "Bachelor - Engineer Constructor Aircrafts and Helicopters\n"+
         "\n"+
@@ -55,22 +55,21 @@ var obj = {
         "A-Level – Full Stack(2018-2019)\n"+
         "HTML5/CSS3/Flex-Box/JS/Git\n"+
         "In practice, I made one-page websites on PSD layouts and uploaded to hosting",
-    Additional_information: "Currently working as a system administrator, but really want to change the profession and" +
-        " start a career front-end developer. In my free time I do a little freelancing, " +
-        "I make up one-page websites according to layouts. Last time i watch JS lectures and learn English.\n" +
-        "- Quickly learn\n" +
-        "- Fair execution of tasks\n" +
+    Additional_information: "I am currently working as a system administrator, but I really want to change my profession" +
+        " and start a career as a front-end developer. In my spare time I improve my skills in development, create" +
+        " one-page sites according to the layouts. Watching JS lessons, learning English.\n" +
+        "- Quickly learning\n" +
+        "- Fulfillment of tasks in good faith\n" +
         "- Initiative\n" +
         "- Executive\n" +
         "- Punctual\n" +
-        "- Hardworking\n" +
-        "- Auspicious\n" +
-        "- A great desire to learn new things and develop\n" +
+        "- Hard-working\n" +
+        "- Responsible\n" +
+        "- There is a great desire to learn new things and develop\n" +
         "\n" +
         "Marital status: Married.\n" +
         "\n" +
-        " Hobby: collecting mushrooms, kayaks, bicycles, cars.\n" +
-
+        "Hobby: I like to pick mushrooms, walk kayaks, ride bicycles, drive a car.\n" +
         "\n" +
         "Languages:\n" +
         "English pre-intermediate",

@@ -203,18 +203,11 @@ i, [class*=" icon-"] {
 @keyframes slidein {
     from {
         margin-left: -200%;
-        /*width: -300%;*/
     }
-
     to {
         margin-left: 0%;
-        /*width: 100%;*/
     }
 }
-
-
-
-
 
 .right_colum h3{
     font-size: 3em;
@@ -230,14 +223,11 @@ i, [class*=" icon-"] {
     color: white;
     font-size: 1.5em;
     text-align: start;
+    margin-left: 20px;
 }
 
 .Experience p{
     padding-right: 15px;
-}
-
-.Additional_information p{
-    margin: 0 auto;
 }
 
 .right_colum li {
