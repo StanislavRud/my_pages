@@ -1,0 +1,57 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\000031}}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\000037}}
+html {
+  scroll-behavior: smooth; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000311}}
+a {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000315}}
+header {
+  width: 100%;
+  justify-content: space-around;
+  border: 1px solid black;
+  position: fixed;
+  top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000321}}
+  header .main_header {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000327}}
+    header .main_header img {
+      height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000331}}
+    header .main_header nav {
+      margin: auto 0;
+      width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000336}}
+    header .main_header ul {
+      display: flex;
+      justify-content: space-around; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000340}}
+      header .main_header ul li {
+        list-style: none;
+        display: inline-block;
+        border: 1px solid black;
+        padding: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000350}}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000355}}
+  .container div {
+    height: 500px;
+    border: 1px solid black; }
+
+/*# sourceMappingURL=style.css.map */
