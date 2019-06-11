@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/DZ-1\/style\.scss}line{font-family:\000032}}
+body {
+  max-width: 1100px;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/DZ-1\/style\.scss}line{font-family:\000036}}
+  body .container {
+    text-align: center;
+    display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/DZ-1\/style\.scss}line{font-family:\000039}}
+    body .container form img {
+      width: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/DZ-1\/style\.scss}line{font-family:\0000312}}
+    body .container div {
+      border: 1px solid black;
+      margin-bottom: 10px;
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/DZ-1\/style\.scss}line{font-family:\0000319}}
+    body .container input[type="number"] {
+      width: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/DZ-1\/style\.scss}line{font-family:\0000323}}
+    body .container input + span {
+      padding-right: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/DZ-1\/style\.scss}line{font-family:\0000327}}
+    body .container input:invalid + span:after {
+      position: absolute;
+      content: '✖';
+      padding-left: 5px; }
+
+/*# sourceMappingURL=style.css.map */

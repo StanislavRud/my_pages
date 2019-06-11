@@ -1,0 +1,33 @@
+
+body {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  .container {
+    text-align: center;
+    display: flex;
+    form img {
+      width: 25px;
+    }
+    div {
+      //width: 30%;
+      border: 1px solid black;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    input[type="number"] {
+      width: 100px;
+    }
+
+    input + span {
+      padding-right: 30px;
+    }
+
+    input:invalid+span:after {
+      position: absolute;
+      content: '✖';
+      padding-left: 5px;
+    }
+  }
+}

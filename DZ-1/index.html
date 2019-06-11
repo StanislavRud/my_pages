@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>DZ</title>
+</head>
+<body>
+    <div class="date">
+        <select value="date">
+            <option>22.06.2019</option>
+            <option>22.06.2019</option>
+            <option>22.06.2019</option>
+        </select>
+    </div>
+    <div class="container">
+        <div class="date1" id="date1">
+            <h2>22.05.2019</h2>
+            <table>
+                <td>Custom1</td>
+                <td>
+                    <form>
+                        <input type="time" id="appt-time" name="appt-time" min="09:00" max="18:00" value="09:00">
+                        <input type="time" id="appt-time2" name="appt-time" min="09:00" max="18:00" value="12:00">
+                        <span class="validity"></span>
+                        <img id="click_time" class="selectedTime" src="img/edit.svg" alt="" />
+                        <img class="clear_time" src="img/cancel.svg" alt="" />
+                        <span class="redact"></span>
+                    </form>
+                </td>
+                <td class="end_time"></td>
+                <td></td>
+                <td></td>
+            </table>
+        </div>
+<!--        <div class="date2" id="date2">-->
+<!--            <h2>22.05.2019</h2>-->
+<!--        </div>-->
+<!--        <div class="date3" id="date3">-->
+<!--            <h2>22.05.2019</h2>-->
+<!--        </div>-->
+
+    </div>
+
+    <div class="container2">
+        <p>
+            <label for="new-task">Название</label>
+            <input id="new-task" type="text">
+            <label for="date-task">Дата</label>
+            <input id="date-task" type="text">
+            <label for="time-start">Время начала</label>
+            <input id="time-start" type="text">
+            <label for="time-end">Время конца</label>
+            <input id="time-end" type="text">
+            <button id="add-task">Add</button>
+        </p>
+    </div>
+    <div id="tasks">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
