@@ -30,4 +30,33 @@ body {
       padding-left: 5px;
     }
   }
+
+  .container2 {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    .leftColumn {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+    .rightColumn {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+  }
+  .listTasks {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+    li {
+      list-style: none;
+    }
+  }
 }

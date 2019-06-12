@@ -26,5 +26,32 @@ body {
       position: absolute;
       content: '✖';
       padding-left: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/DZ-1\/style\.scss}line{font-family:\0000334}}
+  body .container2 {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/DZ-1\/style\.scss}line{font-family:\0000342}}
+    body .container2 .leftColumn {
+      display: flex;
+      flex-direction: column;
+      width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/DZ-1\/style\.scss}line{font-family:\0000347}}
+    body .container2 .rightColumn {
+      display: flex;
+      flex-direction: column;
+      width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/DZ-1\/style\.scss}line{font-family:\0000353}}
+  body .listTasks {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/DZ-1\/style\.scss}line{font-family:\0000358}}
+    body .listTasks li {
+      list-style: none; }
 
 /*# sourceMappingURL=style.css.map */
