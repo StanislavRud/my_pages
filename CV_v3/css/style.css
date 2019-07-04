@@ -1,57 +1,136 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\000031}}
+@import url("https://fonts.googleapis.com/css?family=Roboto|Titillium+Web&display=swap");
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\000032}}
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000310}}
 html {
   scroll-behavior: smooth; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000314}}
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white;
+  font-family: 'Titillium Web', sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000315}}
-header {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000322}}
+body header {
   width: 100%;
   justify-content: space-around;
-  border: 1px solid black;
+  border: 1px solid white;
   position: fixed;
-  top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000321}}
-  header .main_header {
+  top: 0;
+  background-color: #1a1a1a;
+  z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000330}}
+  body header .main_header {
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000327}}
-    header .main_header img {
+    justify-content: space-around;
+    height: 55px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000337}}
+    body header .main_header img {
       height: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000331}}
-    header .main_header nav {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000341}}
+    body header .main_header nav {
       margin: auto 0;
       width: 80%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000336}}
-    header .main_header ul {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000346}}
+    body header .main_header ul {
       display: flex;
       justify-content: space-around; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000340}}
-      header .main_header ul li {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000350}}
+      body header .main_header ul li {
         list-style: none;
         display: inline-block;
         border: 1px solid black;
-        padding: 5px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000350}}
-.container {
+        padding: 5px;
+        border-bottom: 2px solid green; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000359}}
+      body header .main_header ul li:hover {
+        background-color: rgba(22, 100, 9, 0.38); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000362}}
+      body header .main_header ul li:active {
+        background-color: rgba(22, 100, 9, 0.38); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000370}}
+body .osn_container li {
+  height: 800px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000375}}
+body .osn_container .block_home {
+  height: 800px;
+  background-image: url("../img/home2.JPG");
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000382}}
+  body .osn_container .block_home .block_with_text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000386}}
+    body .osn_container .block_home .block_with_text .home_text {
+      width: 400px;
+      height: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000389}}
+      body .osn_container .block_home .block_with_text .home_text h1 {
+        display: block;
+        position: absolute;
+        margin-top: 30px;
+        color: white;
+        font-size: 60px;
+        font-family: 'Roboto', sans-serif;
+        animation-duration: 1s;
+        animation-name: slidein; }
+@keyframes slidein {
+  from {
+    margin-left: -200%; }
+  to {
+    margin-left: 0%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\00003108}}
+      body .osn_container .block_home .block_with_text .home_text p {
+        font-size: 2em;
+        color: white;
+        animation-duration: 1s;
+        animation-name: slidein2; }
+@keyframes slidein2 {
+  from {
+    margin-top: -200%; }
+  to {
+    margin-top: 0%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\00003128}}
+body .osn_container li:first-child {
+  margin-top: 55px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\00003131}}
+body .osn_container .container {
   max-width: 1100px;
   margin: 0 auto;
-  text-align: center;
-  margin-top: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\0000355}}
-  .container div {
-    height: 500px;
-    border: 1px solid black; }
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\00003139}}
+body .osn_container .about_me .container_about_me {
+  display: flex;
+  padding: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\00003142}}
+  body .osn_container .about_me .container_about_me img {
+    height: 30%;
+    border-radius: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\00003146}}
+  body .osn_container .about_me .container_about_me p {
+    text-align: justify;
+    padding: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\00003153}}
+body .osn_container div {
+  height: 100%;
+  border: 1px solid black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Private\/cv\/my_pages\/CV_v3\/css\/style\.scss}line{font-family:\00003156}}
+  body .osn_container div a {
+    display: block;
+    content: "";
+    height: 56px;
+    margin: -56px 0 0; }
 
 /*# sourceMappingURL=style.css.map */

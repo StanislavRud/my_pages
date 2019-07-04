@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Titillium+Web&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Titillium Web', sans-serif;
 }
+
 
 html {
   scroll-behavior: smooth;
@@ -10,19 +13,26 @@ html {
 
 a {
   text-decoration: none;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+
 }
+body {
 
 header {
   width: 100%;
   justify-content: space-around;
-  border: 1px solid black;
+  border: 1px solid white;
   position: fixed;
   top: 0;
+  background-color: #1a1a1a;
+  z-index: 1;
   .main_header {
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    height: 55px;
 
     img {
       height: 100%;
@@ -42,19 +52,113 @@ header {
         display: inline-block;
         border: 1px solid black;
         padding: 5px;
+        border-bottom: 2px solid green;
+
+
+      }
+      li:hover {
+        background-color: rgba(22,100,9,0.38);
+      }
+      li:active {
+        background-color: rgba(22,100,9,0.38);
       }
     }
   }
 }
 
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 50px;
-  div {
-    height: 500px;
-    border: 1px solid black;
+.osn_container {
+  li {
+    height: 800px;
+  }
+
+
+  .block_home {
+    height: 800px;
+    background-image: url("../img/home2.JPG");
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .block_with_text {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .home_text {
+        width: 400px;
+        height: 150px;
+        h1 {
+          display: block;
+          position: absolute;
+          margin-top: 30px;
+          color: white;
+          font-size: 60px;
+          //margin: 0;
+          font-family: 'Roboto', sans-serif;
+          animation-duration: 1s;
+          animation-name: slidein;
+        }
+        @keyframes slidein {
+          from {
+            margin-left: -200%;
+          }
+          to {
+            margin-left: 0%;
+          }
+        }
+        p {
+          //position: absolute;
+          //display: inline;
+          font-size: 2em;
+          color: white;
+          animation-duration: 1s;
+          animation-name: slidein2;
+
+          @keyframes slidein2 {
+            from {
+              margin-top: -200%;
+            }
+            to {
+              margin-top: 0%;
+            }
+          }
+        }
+      }
+    }
+  }
+  li:first-child  {
+    margin-top: 55px;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
 
   }
+
+  .about_me {
+    .container_about_me {
+      display: flex;
+      padding: 5px;
+      img {
+        height: 30%;
+        border-radius: 15px;
+      }
+      p {
+        text-align: justify;
+        padding: 5px;
+      }
+    }
+  }
+
+  div {
+    height: 100%;
+    border: 1px solid black;
+      a {
+        display: block;
+        content: "";
+        height: 56px;
+        margin: -56px 0 0;
+      }
+  }
+}
 }
