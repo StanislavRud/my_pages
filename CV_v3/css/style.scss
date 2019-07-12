@@ -109,8 +109,6 @@ header {
           }
         }
         p {
-          //position: absolute;
-          //display: inline;
           font-size: 2em;
           color: white;
           animation-duration: 1s;
@@ -140,7 +138,6 @@ header {
 
   .about_me {
     .container_about_me {
-      height: 300px;
       display: flex;
       padding: 5px;
       img {
@@ -155,7 +152,14 @@ header {
   }
   .skills {
 
-
+      .skills ul {
+        width: 60%;
+        margin: 0 auto;
+        text-align: left;
+        li {
+          margin: 10px 0;
+        }
+      }
     .skills_per{
       //width: 100px;
       //      //height: 100px;
@@ -228,6 +232,7 @@ header {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  margin-right: 10px;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;

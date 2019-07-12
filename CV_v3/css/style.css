@@ -124,7 +124,6 @@ body .osn_container .container {
   text-align: center;
 }
 body .osn_container .about_me .container_about_me {
-  height: 300px;
   display: flex;
   padding: 5px;
 }
@@ -135,6 +134,14 @@ body .osn_container .about_me .container_about_me img {
 body .osn_container .about_me .container_about_me p {
   text-align: justify;
   padding: 5px;
+}
+body .osn_container .skills .skills ul {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+body .osn_container .skills .skills ul li {
+  margin: 10px 0;
 }
 body .osn_container .work_experience .factor, body .osn_container .work_experience .chudo {
   display: flex;
@@ -183,6 +190,7 @@ body .osn_container div a {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  margin-right: 10px;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
