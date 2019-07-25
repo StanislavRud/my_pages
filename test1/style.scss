@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  input[type=checkbox] {
+    zoom: 1.2;
+  };
+};
+
+body {
+
+  .container {
+    max-width: 981px;
+    margin: 0 auto;
+    h1 {
+      text-align: center;
+    }
+    .wrapper_containers {
+
+      .head_block, .block {
+        display: flex;
+      }
+    }
+  }
+;
+}
