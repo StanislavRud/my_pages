@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  input[type=checkbox] {
+    zoom: 1.2;
+  };
+};
+
+body {
+
+  .container {
+    max-width: 981px;
+    margin: 0 auto;
+    h1 {
+      text-align: center;
+    }
+    .wrapper_containers {
+        div {
+          border: 1px solid;
+        }
+      .head_block, .block {
+        display: flex;
+      }
+    }
+
+    .projects {
+      display: flex;
+      text-align: center;
+      div {
+        border: 1px solid black;
+      }
+      img {
+        height: 46px;
+      }
+    }
+
+    .registration  {
+      div {
+        border: 1px solid black;
+      }
+      display: flex;
+      .left_column {
+        width: 50%;
+      }
+      .right_column {
+        width: 50%;
+      }
+    }
+
+  }
+;
+}
