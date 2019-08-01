@@ -8,6 +8,7 @@
 };
 
 body {
+  background-color: #f8f8f8;
 
   .container {
     max-width: 981px;
@@ -16,11 +17,24 @@ body {
       text-align: center;
     }
     .wrapper_containers {
-        div {
-          border: 1px solid;
-        }
-      .head_block, .block {
+      display: flex;
+      width: 100%;
+      div {
+        width: 25%;
+      }
+
+      p {
+        background-color: white;
+      }
+      p:nth-child(n + 1){
+        margin-top: 8px;
+      }
+      .buttons_block {
         display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-content: center;
+
       }
     }
 
