@@ -14,15 +14,12 @@ body {
     margin: 0 auto;
     h1 {
       text-align: center;
-    }
-    .wrapper_containers {
-        div {
-          border: 1px solid;
-        }
-      .head_block, .block {
-        display: flex;
-      }
-    }
+    };
+    .checks_block {
+      display: flex;
+      width: 20%;
+    };
+
 
     .projects {
       display: flex;
@@ -49,5 +46,4 @@ body {
     }
 
   }
-;
 }
