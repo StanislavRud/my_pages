@@ -8,18 +8,44 @@
 };
 
 body {
+  background-color: #f8f8f8;
 
   .container {
     max-width: 981px;
     margin: 0 auto;
     h1 {
       text-align: center;
+<<<<<<< HEAD:test1/css/style.scss
     };
     .checks_block {
       display: flex;
       width: 20%;
     };
 
+=======
+    }
+    .wrapper_containers {
+      display: flex;
+      width: 100%;
+      div {
+        width: 25%;
+      }
+
+      p {
+        background-color: white;
+      }
+      p:nth-child(n + 1){
+        margin-top: 8px;
+      }
+      .buttons_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-content: center;
+
+      }
+    }
+>>>>>>> 9f5bda6c45c10cbc008109ac2e9ea54be98520c4:test1/style.scss
 
     .projects {
       display: flex;
