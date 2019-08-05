@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+  * input[type=checkbox] {
+    zoom: 1.2; }
+
+body {
+  background: #f5f5f5; }
+  body .container {
+    max-width: 981px;
+    margin: 0 auto; }
+    body .container h1 {
+      text-align: center; }
+    body .container .projests_pannel {
+      display: flex;
+      flex-direction: column; }
+      body .container .projests_pannel div {
+        background: white;
+        margin-bottom: 5px;
+        height: 45px; }
+      body .container .projests_pannel .head_block {
+        display: flex; }
+        body .container .projests_pannel .head_block div {
+          width: 25%; }
+      body .container .projests_pannel .block {
+        display: flex; }
+        body .container .projests_pannel .block p {
+          width: 25%; }
+    body .container .projects {
+      display: flex;
+      text-align: center; }
+      body .container .projects div {
+        border: 1px solid black; }
+      body .container .projects img {
+        height: 46px; }
+    body .container .registration {
+      display: flex; }
+      body .container .registration div {
+        border: 1px solid black; }
+      body .container .registration .left_column {
+        width: 50%; }
+      body .container .registration .right_column {
+        width: 50%; }
+
+/*# sourceMappingURL=style.css.map */

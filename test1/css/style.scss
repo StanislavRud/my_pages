@@ -8,6 +8,7 @@
 };
 
 body {
+  background: #f5f5f5;
 
   .container {
     max-width: 981px;
@@ -15,14 +16,29 @@ body {
     h1 {
       text-align: center;
     }
-    .wrapper_containers {
-        div {
-          border: 1px solid;
-        }
-      .head_block, .block {
+    .projests_pannel {
+      display: flex;
+      flex-direction: column;
+      div {
+        background: white;
+        margin-bottom: 5px;
+        height: 45px;
+      }
+      .head_block {
         display: flex;
+        div {
+          width: 25%;
+        }
+      }
+      .block {
+        display: flex;
+        p {
+          width: 25%;
+        }
       }
     }
+
+
 
     .projects {
       display: flex;
@@ -49,5 +65,4 @@ body {
     }
 
   }
-;
 }
