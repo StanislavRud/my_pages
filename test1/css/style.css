@@ -1,46 +1,24 @@
-/*
-Error: Invalid CSS after "...ground: #f5f5f5": expected "{", was ";"
-        on line 12 of D:\Private\cv\my_pages\test1\css\style.scss
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0.5px solid black; }
 
-7:   };
-8: };
-9: 
-10: body {
-11: <<<<<<< HEAD:test1/css/style.scss
-12:   background: #f5f5f5;
-13: =======
-14:   background-color: #f8f8f8;
-15: >>>>>>> b126c65d405b7825caec278cc61fafa734e84775:test1/css/style.scss
-16: 
-17:   .container {
+body {
+  background: #f5f5f5; }
+  body .main_container {
+    max-width: 980px;
+    margin: 0 auto; }
+    body .main_container .container_table_project .table_projects {
+      display: flex;
+      flex-direction: column;
+      width: 100%; }
+      body .main_container .container_table_project .table_projects .head_line_table {
+        display: flex; }
+      body .main_container .container_table_project .table_projects .table_line {
+        display: flex; }
+    body .main_container .container_projects .project {
+      display: flex;
+      align-items: center; }
 
-Backtrace:
-D:\Private\cv\my_pages\test1\css\style.scss:12
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...ground: #f5f5f5\": expected \"{\", was \";\"\A         on line 12 of D:\Private\cv\my_pages\test1\css\style.scss\A \A 7:   };\A 8: };\A 9: \A 10: body {\A 11: <<<<<<< HEAD:test1/css/style.scss\A 12:   background: #f5f5f5;\A 13: =======\A 14:   background-color: #f8f8f8;\A 15: >>>>>>> b126c65d405b7825caec278cc61fafa734e84775:test1/css/style.scss\A 16: \A 17:   .container {"; }
+/*# sourceMappingURL=style.css.map */
