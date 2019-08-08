@@ -14,41 +14,65 @@
                     <h1>Project</h1>
                     <div class="table_projects">
                         <div class="head_line_table">
-                            <input type="checkbox" value="">
-                            <p>#</p>
-                            <p>CLIENT</p>
-                            <p>STATUS</p>
+                            <div class="check_box">
+                                <input type="checkbox" value="">
+                            </div>
+                            <div class="number">
+                                <p>#</p>
+                            </div>
+                            <div class="client">
+                                <p>CLIENT</p>
+                            </div>
+                            <div class="status">
+                                <p>STATUS</p>
+                            </div>
                         </div>
                         <div class="table_line 1">
-                            <input type="checkbox" value="">
-                            <p>PROJECT #1723</p>
-                            <p>Stella</p>
-                            <p>Sent</p>
+                            <div class="check_box">
+                                <input type="checkbox" value="">
+                            </div>
+                            <div class="number">
+                                <p>PROJECT #1723</p>
+                            </div>
+                            <div class="client">
+                                <p>Stella</p>
+                            </div>
+                            <div class="status">
+                                <p>Sent</p>
+                            </div>
                         </div>
                         <div class="table_line draft">
-                            <input type="checkbox" value="">
-                            <p>PROJECT #1720</p>
-                            <p>IT corp intarnational</p>
-                            <p>Draft</p>
+                            <div class="check_box">
+                                <input type="checkbox" value="">
+                            </div>
+                            <div class="number">
+                                <p>PROJECT #1720</p>
+                            </div>
+                            <div class="client">
+                                <p>IT corp intarnational</p>
+                            </div>
+                            <div class="status">
+                                <p>Draft</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container_projects">
-                <div class="project" id="">
-                    <div class="project1"><img src="img/Pr1.png" alt="">
+                <div class="projects" id="">
+                    <div class="project 1"><img src="img/Pr1.png" alt="">
                         <h2>Project#1</h2>
                         <p>Lerem ipsum dolor sit amet, consectetur</p>
                     </div>
-                    <div class="project2"><img src="img/Pr2.png" alt="">
+                    <div class="project 2"><img src="img/Pr2.png" alt="">
                         <h2>Project#2</h2>
                         <p>Lerem ipsum dolor sit amet, consectetur</p>
                     </div>
-                    <div class="project3"><img src="img/Pr3.png" alt="">
+                    <div class="project 3"><img src="img/Pr3.png" alt="">
                         <h2>Project#3</h2>
                         <p>Lerem ipsum dolor sit amet, consectetur</p>
                     </div>
-                    <div class="project4"><img src="img/Pr4.png" alt="">
+                    <div class="project 4"><img src="img/Pr4.png" alt="">
                         <h2>Project#4</h2>
                         <p>Lerem ipsum dolor sit amet, consectetur</p>
                     </div>
@@ -56,6 +80,30 @@
             </div>
             <div class="container_add_project">
                 <h2>Add project</h2>
+                    <form action="#" method="post">
+                        <div class="input_name_project">
+                            <label for="username">Name</label>
+                            <input type="text" name="username" id="username" placeholder="Please Enter your name">
+                        </div>
+                        <div class="input_client_project">
+                            <label for="client">Client</label>
+                            <input type="text" name="client" id="client" placeholder="Please Enter client name">
+                        </div>
+                        <div class="input_email_project">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="Please Enter your e-mail">
+                        </div>
+                        <div class="input_admin_project">
+                            <label for="admin_user">Admin</label>
+                            <select id="admin_user">
+                                <option value="admin">Admin</option>
+                                <option value="user">User</option>
+                                <option value="guest">Guest</option>
+                            </select>
+                        </div>
+                        <input class="btn_cancel" type="reset" value="CANCEL">
+                        <input class="btb_add" type="submit" name="ADD" value="ADD">
+                    </form>
             </div>
         </div>
     </body>
