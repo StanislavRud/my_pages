@@ -10,6 +10,8 @@ body {
     margin: 0 auto; }
     body .main_container .container_table_project .name_block_table_project {
       text-align: center; }
+      body .main_container .container_table_project .name_block_table_project h1 {
+        margin-top: 57px; }
       body .main_container .container_table_project .name_block_table_project .table_projects {
         display: flex;
         flex-direction: column;
@@ -36,19 +38,19 @@ body {
           padding-left: 10px; }
         body .main_container .container_table_project .name_block_table_project .table_projects .head_line_table {
           display: flex;
-          height: 35px;
+          height: 45px;
           background-color: white; }
         body .main_container .container_table_project .name_block_table_project .table_projects .table_line {
           display: flex;
-          height: 35px;
-          margin-top: 10px;
+          height: 45px;
+          margin-top: 5px;
           background-color: white; }
           body .main_container .container_table_project .name_block_table_project .table_projects .table_line .status p {
             border-bottom: 1px solid grey; }
       body .main_container .container_table_project .name_block_table_project .draft {
         opacity: 0.5; }
     body .main_container .container_projects {
-      margin-top: 50px; }
+      margin-top: 55px; }
       body .main_container .container_projects .projects {
         display: flex;
         flex-wrap: wrap; }
@@ -60,14 +62,15 @@ body {
           text-align: center;
           background-color: white;
           margin-right: 30px;
-          width: 200px;
+          width: 172px;
+          height: 172px;
           padding: 20px; }
           body .main_container .container_projects .projects .project img {
             margin-bottom: 10px; }
     body .main_container .container_add_project {
       background-color: white;
-      margin-top: 40px;
-      padding: 35px; }
+      margin-top: 55px;
+      padding: 33px; }
       body .main_container .container_add_project form {
         display: flex;
         flex-wrap: wrap; }
@@ -83,9 +86,9 @@ body {
           body .main_container .container_add_project form div input:focus {
             border: none; }
         body .main_container .container_add_project form .btn_cancel, body .main_container .container_add_project form .btb_add {
-          margin-top: 20px;
-          width: 150px;
-          height: 40px;
+          margin-top: 40px;
+          width: 130px;
+          height: 45px;
           border-radius: 3px; }
         body .main_container .container_add_project form .btn_cancel {
           margin-right: 20px;
