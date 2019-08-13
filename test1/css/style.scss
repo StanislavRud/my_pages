@@ -5,53 +5,91 @@
   //border: 0.5px solid black;
 };
 
+p {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
 body {
   background: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
   .main_container{
-    max-width: 980px;
+    max-width: 984px;
     margin: 0 auto;
     .container_table_project{
       .name_block_table_project {
         text-align: center;
         h1 {
           margin-top: 57px;
+          font-size: 26px;
+          margin-bottom: 42px;
         }
         .table_projects {
           display: flex;
           flex-direction: column;
           width: 100%;
+
           .check_box {
             width: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
+
+            input[type="checkbox"],input[type="radio"]{
+              -webkit-appearance:none;
+              width:20px;
+              height:20px;
+              border:1px solid grey;
+              outline:none;
+              margin:5px;
+            }
+            input[type="checkbox"]:checked:before{
+              content:"";
+              display:block;
+              width:12px;
+              height:20px;
+              border:0 solid green;
+              border-width:0 2px 2px 0;
+              -webkit-transform:rotateZ(45deg);
+              margin:-6px 3px;pointer-events:none;
+            }
           }
 
           .number {
-            width: 200px;
+            width: 290px;
             display: flex;
             align-items: center;
-            padding-left: 10px;
+            padding-left: 14px;
           }
 
           .client {
-            width: 200px;
+            width: 291px;
             display: flex;
             align-items: center;
-            padding-left: 10px;
+            padding-left: 8px;
           }
 
           .status {
-            width: 548px;
+            //width: 548px;
             display: flex;
             align-items: center;
-            padding-left: 10px;
+            //padding-left: 6px;
+            padding-top: 8px;
+            margin-bottom: 10px;
           }
 
           .head_line_table {
             display: flex;
             height: 45px;
             background-color: white;
+            .block_arrow {
+              margin-left: 8px;
+              width: 0;
+              height: 0;
+              border-left: 5px solid transparent;
+              border-right: 5px solid transparent;
+              border-top: 5px solid red;
+            }
           }
 
           .table_line {
@@ -59,10 +97,26 @@ body {
             height: 45px;
             margin-top: 5px;
             background-color: white;
-
+            p {
+              letter-spacing: normal;
+            }
+            .block_arrow {
+              margin-left: 8px;
+              width: 0;
+              height: 0;
+              border-left: 5px solid transparent;
+              border-right: 5px solid transparent;
+              border-top: 5px solid red;
+              margin-top: -6px;
+            }
             .status {
+              border-bottom: 2px solid grey;
               p {
-                border-bottom: 1px solid grey;
+                //border-bottom: 2px solid grey;
+                width: 68px;
+                text-align: start;
+                letter-spacing: normal;
+                padding-bottom: 1px;
               }
             }
           }
@@ -80,36 +134,57 @@ body {
       .project {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         text-align: center;
         background-color: white;
         margin-right: 30px;
+        margin-bottom: 30px;
         width: 172px;
         height: 172px;
-        padding: 20px;
+        padding: 17px;
         img {
-          margin-bottom: 10px;
+          //margin-bottom: 24px;
+          height: 50px;
+          width: 50px;
+        }
+        h2 {
+          font-size: 20px;
+          //margin-top: 12px;
+        }
+        p {
+          font-size: 11px;
+          font-style: italic;
         }
       }
     }
     }
    .container_add_project{
      background-color: white;
-     margin-top: 55px;
-     padding: 33px;
+     margin-top: 25px;
+     padding-top: 29px;
+     padding-left: 31px;
+     h2 {
+       font-size: 18px;
+     }
      form {
        display: flex;
        flex-wrap: wrap;
+       width: 100%;
        div {
          width: 50%;
-         display: flex;
-         flex-direction: column;
-         padding-right: 50px;
-         padding-top: 20px;
+         //width: 415px;
+         //display: flex;
+         //flex-direction: column;
+         //padding-right: 50px;
+         //padding-top: 25px;
+         label {
+           font-size: 12px;
+         }
          input {
            border: none;
            border-bottom: 1px solid grey;
+           margin-top: 12px;
          }
          input:focus {
            border: none;

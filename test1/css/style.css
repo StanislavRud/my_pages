@@ -3,15 +3,22 @@
   margin: 0;
   padding: 0; }
 
+p {
+  font-size: 13px;
+  letter-spacing: 1px; }
+
 body {
-  background: #f5f5f5; }
+  background: #f5f5f5;
+  font-family: 'Poppins', sans-serif; }
   body .main_container {
-    max-width: 980px;
+    max-width: 984px;
     margin: 0 auto; }
     body .main_container .container_table_project .name_block_table_project {
       text-align: center; }
       body .main_container .container_table_project .name_block_table_project h1 {
-        margin-top: 57px; }
+        margin-top: 57px;
+        font-size: 26px;
+        margin-bottom: 42px; }
       body .main_container .container_table_project .name_block_table_project .table_projects {
         display: flex;
         flex-direction: column;
@@ -21,32 +28,71 @@ body {
           display: flex;
           justify-content: center;
           align-items: center; }
+          body .main_container .container_table_project .name_block_table_project .table_projects .check_box input[type="checkbox"], body .main_container .container_table_project .name_block_table_project .table_projects .check_box input[type="radio"] {
+            -webkit-appearance: none;
+            width: 20px;
+            height: 20px;
+            border: 1px solid grey;
+            outline: none;
+            margin: 5px; }
+          body .main_container .container_table_project .name_block_table_project .table_projects .check_box input[type="checkbox"]:checked:before {
+            content: "";
+            display: block;
+            width: 12px;
+            height: 20px;
+            border: 0 solid green;
+            border-width: 0 2px 2px 0;
+            -webkit-transform: rotateZ(45deg);
+            margin: -6px 3px;
+            pointer-events: none; }
         body .main_container .container_table_project .name_block_table_project .table_projects .number {
-          width: 200px;
+          width: 290px;
           display: flex;
           align-items: center;
-          padding-left: 10px; }
+          padding-left: 14px; }
         body .main_container .container_table_project .name_block_table_project .table_projects .client {
-          width: 200px;
+          width: 291px;
           display: flex;
           align-items: center;
-          padding-left: 10px; }
+          padding-left: 8px; }
         body .main_container .container_table_project .name_block_table_project .table_projects .status {
-          width: 548px;
           display: flex;
           align-items: center;
-          padding-left: 10px; }
+          padding-top: 8px;
+          margin-bottom: 10px; }
         body .main_container .container_table_project .name_block_table_project .table_projects .head_line_table {
           display: flex;
           height: 45px;
           background-color: white; }
+          body .main_container .container_table_project .name_block_table_project .table_projects .head_line_table .block_arrow {
+            margin-left: 8px;
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid red; }
         body .main_container .container_table_project .name_block_table_project .table_projects .table_line {
           display: flex;
           height: 45px;
           margin-top: 5px;
           background-color: white; }
-          body .main_container .container_table_project .name_block_table_project .table_projects .table_line .status p {
-            border-bottom: 1px solid grey; }
+          body .main_container .container_table_project .name_block_table_project .table_projects .table_line p {
+            letter-spacing: normal; }
+          body .main_container .container_table_project .name_block_table_project .table_projects .table_line .block_arrow {
+            margin-left: 8px;
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid red;
+            margin-top: -6px; }
+          body .main_container .container_table_project .name_block_table_project .table_projects .table_line .status {
+            border-bottom: 2px solid grey; }
+            body .main_container .container_table_project .name_block_table_project .table_projects .table_line .status p {
+              width: 68px;
+              text-align: start;
+              letter-spacing: normal;
+              padding-bottom: 1px; }
       body .main_container .container_table_project .name_block_table_project .draft {
         opacity: 0.5; }
     body .main_container .container_projects {
@@ -57,32 +103,42 @@ body {
         body .main_container .container_projects .projects .project {
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          justify-content: space-between;
           align-items: center;
           text-align: center;
           background-color: white;
           margin-right: 30px;
+          margin-bottom: 30px;
           width: 172px;
           height: 172px;
-          padding: 20px; }
+          padding: 17px; }
           body .main_container .container_projects .projects .project img {
-            margin-bottom: 10px; }
+            height: 50px;
+            width: 50px; }
+          body .main_container .container_projects .projects .project h2 {
+            font-size: 20px; }
+          body .main_container .container_projects .projects .project p {
+            font-size: 11px;
+            font-style: italic; }
     body .main_container .container_add_project {
       background-color: white;
-      margin-top: 55px;
-      padding: 33px; }
+      margin-top: 25px;
+      padding-top: 29px;
+      padding-left: 31px; }
+      body .main_container .container_add_project h2 {
+        font-size: 18px; }
       body .main_container .container_add_project form {
         display: flex;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+        width: 100%; }
         body .main_container .container_add_project form div {
-          width: 50%;
-          display: flex;
-          flex-direction: column;
-          padding-right: 50px;
-          padding-top: 20px; }
+          width: 50%; }
+          body .main_container .container_add_project form div label {
+            font-size: 12px; }
           body .main_container .container_add_project form div input {
             border: none;
-            border-bottom: 1px solid grey; }
+            border-bottom: 1px solid grey;
+            margin-top: 12px; }
           body .main_container .container_add_project form div input:focus {
             border: none; }
         body .main_container .container_add_project form .btn_cancel, body .main_container .container_add_project form .btb_add {

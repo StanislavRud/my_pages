@@ -5,7 +5,7 @@
     <title>Test1</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
     <body>
         <div class="main_container">
@@ -19,12 +19,15 @@
                             </div>
                             <div class="number">
                                 <p>#</p>
+                                <div class="block_arrow"></div>
                             </div>
                             <div class="client">
                                 <p>CLIENT</p>
+                                <div class="block_arrow"></div>
                             </div>
                             <div class="status">
                                 <p>STATUS</p>
+                                <div class="block_arrow"></div>
                             </div>
                         </div>
                         <div class="table_line 1">
@@ -39,6 +42,7 @@
                             </div>
                             <div class="status">
                                 <p>Sent</p>
+                                <div class="block_arrow"></div>
                             </div>
                         </div>
                         <div class="table_line draft">
@@ -53,6 +57,7 @@
                             </div>
                             <div class="status">
                                 <p>Draft</p>
+                                <div class="block_arrow"></div>
                             </div>
                         </div>
                     </div>
@@ -81,25 +86,29 @@
             <div class="container_add_project">
                 <h2>Add project</h2>
                     <form action="#" method="post">
-                        <div class="input_name_project">
-                            <label for="username">Name</label>
-                            <input type="text" name="username" id="username" placeholder="Please Enter your name">
+                        <div class="left_column_add_project">
+                            <div class="input_name_project">
+                                <label for="username">Name</label>
+                                <input type="text" name="username" id="username" placeholder="Please Enter your name">
+                            </div>
+                            <div class="input_email_project">
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email" placeholder="Please Enter your e-mail">
+                            </div>
                         </div>
-                        <div class="input_client_project">
-                            <label for="client">Client</label>
-                            <input type="text" name="client" id="client" placeholder="Please Enter client name">
-                        </div>
-                        <div class="input_email_project">
-                            <label for="email">E-mail</label>
-                            <input type="email" name="email" id="email" placeholder="Please Enter your e-mail">
-                        </div>
-                        <div class="input_admin_project">
-                            <label for="admin_user">Admin</label>
-                            <select id="admin_user">
-                                <option value="admin">Admin</option>
-                                <option value="user">User</option>
-                                <option value="guest">Guest</option>
-                            </select>
+                        <div class="right_column_add_project">
+                            <div class="input_client_project">
+                                <label for="client">Client</label>
+                                <input type="text" name="client" id="client" placeholder="Please Enter client name">
+                            </div>
+                            <div class="input_admin_project">
+                                <label for="admin_user">Admin</label>
+                                <select id="admin_user">
+                                    <option value="admin">Admin</option>
+                                    <option value="user">User</option>
+                                    <option value="guest">Guest</option>
+                                </select>
+                            </div>
                         </div>
                         <input class="btn_cancel" type="reset" value="CANCEL">
                         <input class="btb_add" type="submit" name="ADD" value="ADD">
