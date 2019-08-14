@@ -170,37 +170,53 @@ body {
      form {
        display: flex;
        flex-wrap: wrap;
-       width: 100%;
-       div {
-         width: 50%;
+       width: 807px;
+       margin-top: 30px;
+       .left_column_add_project, .right_column_add_project {
+         width: 366px;
          //width: 415px;
-         //display: flex;
-         //flex-direction: column;
+         display: flex;
+         flex-direction: column;
          //padding-right: 50px;
          //padding-top: 25px;
-         label {
-           font-size: 12px;
+         .input_name_project, .input_email_project, .input_client_project, .input_admin_project {
+           display: flex;
+           flex-direction: column;
+           margin-bottom: 35px
          }
+
          input {
            border: none;
            border-bottom: 1px solid grey;
            margin-top: 12px;
          }
+
          input:focus {
+           outline:0;
+           outline-offset:0;
            border: none;
+
          }
        }
+       .right_column_add_project {
+         margin-left: 45px;
+       }
        .btn_cancel, .btb_add {
-         margin-top: 40px;
+         margin-top: 5px;
          width: 130px;
          height: 45px;
          border-radius: 3px;
+         margin-bottom: 55px;
+         font-size: 15px;
+         letter-spacing: 1.5px;
        }
        .btn_cancel {
          margin-right: 20px;
          background-color: white;
-         border: 1px solid grey;
+         border: 2px solid #576b87;
          border-radius: 3px;
+         color: #576b87;
+
        }
 
        .btb_add {

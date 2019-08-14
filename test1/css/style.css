@@ -130,27 +130,40 @@ body {
       body .main_container .container_add_project form {
         display: flex;
         flex-wrap: wrap;
-        width: 100%; }
-        body .main_container .container_add_project form div {
-          width: 50%; }
-          body .main_container .container_add_project form div label {
-            font-size: 12px; }
-          body .main_container .container_add_project form div input {
+        width: 807px;
+        margin-top: 30px; }
+        body .main_container .container_add_project form .left_column_add_project, body .main_container .container_add_project form .right_column_add_project {
+          width: 366px;
+          display: flex;
+          flex-direction: column; }
+          body .main_container .container_add_project form .left_column_add_project .input_name_project, body .main_container .container_add_project form .left_column_add_project .input_email_project, body .main_container .container_add_project form .left_column_add_project .input_client_project, body .main_container .container_add_project form .left_column_add_project .input_admin_project, body .main_container .container_add_project form .right_column_add_project .input_name_project, body .main_container .container_add_project form .right_column_add_project .input_email_project, body .main_container .container_add_project form .right_column_add_project .input_client_project, body .main_container .container_add_project form .right_column_add_project .input_admin_project {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 35px; }
+          body .main_container .container_add_project form .left_column_add_project input, body .main_container .container_add_project form .right_column_add_project input {
             border: none;
             border-bottom: 1px solid grey;
             margin-top: 12px; }
-          body .main_container .container_add_project form div input:focus {
+          body .main_container .container_add_project form .left_column_add_project input:focus, body .main_container .container_add_project form .right_column_add_project input:focus {
+            outline: 0;
+            outline-offset: 0;
             border: none; }
+        body .main_container .container_add_project form .right_column_add_project {
+          margin-left: 45px; }
         body .main_container .container_add_project form .btn_cancel, body .main_container .container_add_project form .btb_add {
-          margin-top: 40px;
+          margin-top: 5px;
           width: 130px;
           height: 45px;
-          border-radius: 3px; }
+          border-radius: 3px;
+          margin-bottom: 55px;
+          font-size: 15px;
+          letter-spacing: 1.5px; }
         body .main_container .container_add_project form .btn_cancel {
           margin-right: 20px;
           background-color: white;
-          border: 1px solid grey;
-          border-radius: 3px; }
+          border: 2px solid #576b87;
+          border-radius: 3px;
+          color: #576b87; }
         body .main_container .container_add_project form .btb_add {
           background-color: yellow;
           border: none; }
