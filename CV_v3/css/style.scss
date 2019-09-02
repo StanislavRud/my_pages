@@ -10,6 +10,10 @@ p {
   font-size: 20px;
 }
 
+h2 {
+  margin: 1em;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -26,6 +30,8 @@ li {
 }
 
 body {
+  background-image: url("../img/backgroung_image.png");
+  background-size: cover;
 
 header {
   width: 100%;
@@ -150,16 +156,25 @@ header {
       }
     }
   }
-  .skills {
+  .my_skills {
 
-      .skills ul {
+    h2 {
+      margin-top: 1em;
+    }
+
+    .skills ul {
         width: 60%;
-        margin: 0 auto;
+        margin: 2em auto;
         text-align: left;
+        border-radius: 5px;
+        padding: 1rem 2rem;
+        line-height: 1.5;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.5);
         li {
           margin: 10px 0;
         }
-      }
+    }
     .skills_per{
       //width: 100px;
       //      //height: 100px;
@@ -176,19 +191,55 @@ header {
     .factor, .chudo {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      //align-items: center;
       flex-direction: row-reverse;
-
+      text-align: left;
       padding: 5px;
+      line-height: 1.5;
+      align-items: end;
+      border-radius: 15px;
       img {
-        width: 30%;
+        width: 10%;
         margin-left: 5px;
+      }
+    }
+    .factor {
+      background-image: url("../img/factorcorp.jpg");
+      background-size: cover;
+      //height: 500px;
+      .factor_text {
+        border-radius: 5px;
+        padding: 1rem 2rem;
+        line-height: 1.5;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 3em;
+      }
+    }
+    .chudo {
+      background-image: url("../img/chudomarket.jpg");
+      .chudo_text {
+        //width: 65%;
+        border-radius: 5px;
+        padding: 1rem 2rem;
+        line-height: 1.5;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 3em;
       }
     }
   }
 
   .education {
+    //background-image: url("../img/education.jpg");
     .education_khai, .telesens_academy, .nt_school, .a_level {
+      border-radius: 5px;
+      padding: 1rem 2rem;
+      line-height: 1.5;
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 50px;
+
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -201,7 +252,7 @@ header {
 
   div {
     height: 100%;
-    border: 1px solid black;
+    //border: 1px solid black;
       a {
         display: block;
         content: "";
