@@ -83,6 +83,119 @@ header {
     nav:hover a:not(:hover){
       color: #0089ff;
     }
+
+    #menu {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      //left: 50%;
+      //top: 50%;
+      //margin: -75px 0 0 -75px;
+      list-style: none;
+      font-size: 200%;
+    }
+
+    .menu-button {
+      opacity: 0;
+      z-index: -1;
+    }
+
+    .menu-button {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin: -75px 0 0 -75px;
+      border-radius: 50%;
+      background: #163d66;
+      background-size: 100%;
+      overflow: hidden;
+      text-decoration: none;
+    }
+    .icon-plus {
+      display: block;
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    .icon-minus {
+      display: block;
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    #menu:not(:target)>a:first-of-type,
+    #menu:target>a:last-of-type {
+      opacity: 1;
+      z-index: 1;
+    }
+
+    #menu:not(:target)>.icon-plus:before,
+    #menu:target>.icon-minus:before {
+      opacity: 1;
+    }
+
+    .menu-item {
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      left: 50%;
+      line-height: 5px;
+      top: 50%;
+      margin: -50px 0 0 -50px;
+      border-radius: 50%;
+      background-color: #163d66;
+      transform: translate(0px, 0px);
+      transition: transform 500ms;
+      z-index: -2;
+      transition: .5s;
+    }
+
+    .menu-item:hover {
+      opacity: 0.5;
+      box-shadow: 0 5px 10px black;
+      cursor: pointer;
+    }
+
+    .menu-item a {
+      color: #fff;
+      position: relative;
+      top: 30%;
+      left: 0;
+      text-decoration: none;
+      font-family: 'Titillium Web', sans-serif;
+    }
+
+    #menu:target>.menu-item:nth-child(6) {
+      transform: rotate(60deg) translateY(105px) rotate(300deg);
+      transition-delay: 0s;
+    }
+
+    #menu:target>.menu-item:nth-child(5) {
+      transform: rotate(20deg) translateY(105px) rotate(-20deg);
+      transition-delay: 0.1s;
+    }
+
+    #menu:target>.menu-item:nth-child(3) {
+      transform: rotate(-20deg) translateY(105px) rotate(20deg);
+      transition-delay: 0.2s;
+    }
+
+    #menu:target>.menu-item:nth-child(4) {
+      transform: rotate(-60deg) translateY(105px) rotate(60deg);
+      transition-delay: 0.3s;
+    }
+
+    .content{
+      position: absolute;
+      text-align: center;
+      margin: -10px 0 0 -30px;
+      top: 70%;
+      left: 50%;
+      font-size: 20px;
+    }
   }
 }
 
@@ -180,6 +293,7 @@ header {
     background-image: url("../img/Skills2.jpg");
     background-size: cover;
     margin-top: 100px;
+    padding: 15px;
 
     h2 {
       //margin-top: 1em;
